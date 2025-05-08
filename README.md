@@ -1,7 +1,6 @@
 # Goodreads Copy Book Info
 
-A userscript that adds a convenient "Copy Info" button to Goodreads book pages, allowing you to quickly copy formatted book information to your clipboard.
-
+A userscript that adds a convenient "Copy Info" button to Goodreads book pages.
 
 ## Prerequisites
 
