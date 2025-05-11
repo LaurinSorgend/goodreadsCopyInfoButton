@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Goodreads Copy Book Info
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Adds a button to copy book information
 // @author       laurin@sorgend.eu
 // @match        https://www.goodreads.com/book/show/*
@@ -58,8 +58,8 @@
         let seriesName = '';
         let seriesNumber = '';
 
-        const seriesElements = document.querySelector('h3.Text__title3 a');
-        if (seriesElements.length > 0) {
+        const seriesElements = document.querySelectorAll('h3.Text__title3 a');
+        if (seriesElements) {
             const seriesElement = seriesElements[0];
             const seriesText = seriesElement.textContent.trim();
             const regex = /\s*(?:#\s*)?(\d+(?:-\d+)?(?:\.\d+)?)\s*$/;
