@@ -9,7 +9,7 @@ This script requires a userscript manager extension to be installed in your brow
 ### Installing Violentmonkey
 
 1. **Chrome**: [Chrome Web Store](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
-2. **Firefox**: [irefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+2. **Firefox**: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 3. **Edge**: [Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
 ## Installation
